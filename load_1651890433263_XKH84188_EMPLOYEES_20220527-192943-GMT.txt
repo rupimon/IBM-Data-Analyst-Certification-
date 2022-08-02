@@ -1,0 +1,111 @@
+{
+    "errorMessageCode": "NONE",
+    "message": "LOAD completed successfully.",
+    "result": {
+        "END_TIME": "",
+        "LOAD_ID": 1651890433263,
+        "LOAD_LOGFILE": "loadlogs\/load_1651890433263_XKH84188_EMPLOYEES_20220527-192943-GMT.txt",
+        "LOAD_OUTPUT": [
+            {
+                "MESSAGE": "The DB2_LOAD_COPY_NO_OVERRIDE registry variable value \"COPY YES TO DB2REMOTE:\/\/db2-s3-load\/\/CSYS.DB2COS\/\/LoadCopies,DB2REMOTE\" overrides the COPY NO parameter specified in the Load.",
+                "SQLCODE": "SQL27966W"
+            },
+            {
+                "MESSAGE": "The utility is beginning to load data from file \"S3\".",
+                "SQLCODE": "SQL3109N"
+            },
+            {
+                "MESSAGE": "The utility is beginning the \"LOAD\" phase at time \"05\/27\/2022 19:29:45.790852\".",
+                "SQLCODE": "SQL3500W"
+            },
+            {
+                "MESSAGE": "Begin Load Consistency Point. Input record count = \"0\".",
+                "SQLCODE": "SQL3519W"
+            },
+            {
+                "MESSAGE": "Load Consistency Point was successful.",
+                "SQLCODE": "SQL3520W"
+            },
+            {
+                "MESSAGE": "The syntax of the string representation of a datetime value is incorrect.  SQLSTATE=22007",
+                "SQLCODE": "SQL0180N"
+            },
+            {
+                "MESSAGE": "The previous error occurred while processing data from row \"F0-2\" of the input file.",
+                "SQLCODE": "SQL3185W"
+            },
+            {
+                "MESSAGE": "The syntax of the string representation of a datetime value is incorrect.  SQLSTATE=22007",
+                "SQLCODE": "SQL0180N"
+            },
+            {
+                "MESSAGE": "The previous error occurred while processing data from row \"F0-4\" of the input file.",
+                "SQLCODE": "SQL3185W"
+            },
+            {
+                "MESSAGE": "The syntax of the string representation of a datetime value is incorrect.  SQLSTATE=22007",
+                "SQLCODE": "SQL0180N"
+            },
+            {
+                "MESSAGE": "The previous error occurred while processing data from row \"F0-10\" of the input file.",
+                "SQLCODE": "SQL3185W"
+            },
+            {
+                "MESSAGE": "Record token \"F0-2\" refers to user record number \"2\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F0-4\" refers to user record number \"4\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "Record token \"F0-10\" refers to user record number \"10\".",
+                "SQLCODE": "SQL3227W"
+            },
+            {
+                "MESSAGE": "The utility has completed processing.  \"10\" rows were read from the input file.",
+                "SQLCODE": "SQL3110N"
+            },
+            {
+                "MESSAGE": "Begin Load Consistency Point. Input record count = \"10\".",
+                "SQLCODE": "SQL3519W"
+            },
+            {
+                "MESSAGE": "Load Consistency Point was successful.",
+                "SQLCODE": "SQL3520W"
+            },
+            {
+                "MESSAGE": "The utility has finished the \"LOAD\" phase at time \"05\/27\/2022 19:29:46.336327\".",
+                "SQLCODE": "SQL3515W"
+            },
+            {
+                "MESSAGE": "The utility is beginning the \"BUILD\" phase at time \"05\/27\/2022 19:29:46.340882\".",
+                "SQLCODE": "SQL3500W"
+            },
+            {
+                "MESSAGE": "The indexing mode is \"REBUILD\".",
+                "SQLCODE": "SQL3213I"
+            },
+            {
+                "MESSAGE": "The utility has finished the \"BUILD\" phase at time \"05\/27\/2022 19:29:46.682004\".",
+                "SQLCODE": "SQL3515W"
+            },
+            {
+                "MESSAGE": "At least one warning message was encountered during LOAD processing.",
+                "SQLCODE": "SQL3107W"
+            }
+        ],
+        "LOAD_STATUS": "RUNNING",
+        "ROWS_COMMITTED": 10,
+        "ROWS_DELETED": 0,
+        "ROWS_LOADED": 7,
+        "ROWS_READ": 10,
+        "ROWS_REJECTED": 3,
+        "ROWS_SKIPPED": 0,
+        "SCHEMA": "XKH84188",
+        "START_TIME": "20220527 19:29:43 GMT",
+        "TABLE": "EMPLOYEES",
+        "WARNING": "At least one warning message was encountered during LOAD processing.. SQLCODE=3107, SQLSTATE=     , DRIVER=4.27.25"
+    },
+    "resultCode": "SUCCESS"
+}
